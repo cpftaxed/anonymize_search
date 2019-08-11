@@ -1,0 +1,6 @@
+searchform:
+  version: VERSION
+  js:
+    js/search_anonymize_handler.js: {}
+  dependencies:
+    - core/jquery
