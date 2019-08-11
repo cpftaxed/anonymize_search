@@ -1,0 +1,6 @@
+name: Anonymize Search Form
+description: A custom block for site-specific searches using the search.anonymize.com search engine.
+package: EFF Palo Alto
+type: module
+version: 1.0
+core: 8.x
