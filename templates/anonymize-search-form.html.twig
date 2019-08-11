@@ -1,0 +1,19 @@
+{{ attach_library('anonymize_search/searchform') }}
+
+
+<div class="container">
+ <div class="row">
+  <div class="col align-self-center">
+   <form id="anonymize-search-form" action="https://search.anonymize.com/?q%s" class="form-inline" role="search" data-domain="{{ domain_name }}">
+    <div class="input-group mb-6" style="width:500px;max-width:100%;margin-left:auto;margin-right:auto;">
+     <input id="searchbox" class="form-control" name="q" placeholder="Search this site..." type="text" />
+     <div class="input-group-append">
+      <button id="submit-search" class="btn btn-success" type="submit">Submit</button>
+     </div>
+    </div>
+   <input name="categories" type="hidden" value="general" />
+   <input name="preferences" type="hidden" value="eJx1UtFu2zAM_JrppUgx7F0Pw4phBQakWNK9CrJ8sVnLoiHK8byvH5U2TQpkT4KO1N3xqAyZYxHHySUsrvjGfvdRYFomlyEcj8hWAm36ubkvi4k-dbPvYJE2zzsTOfhYL6Yl8U1E66Y4d5TE_qZxE2mA67kMWOXTl2_bCamyqqSLlIZ33SbzIshVv_Y9pgMlKnASMsd4fvk1BIi4h-2jkixZGwyN6sVNmf-sdp9nGD8XDjxOEQXWiD9A4HPo7WdTeoywLMFng_TR7A7x4FSW8-gLcaou9tmHQU09__qpeiNrEor-2O-fdmd9ve9O9HWQ4As6zqsTRIRySQRJNSB29T2zcx0Ssq9TdcxdxJ0mIK7mUFUjN1JwnxWhcumR0HP02WkkhBSq8kIDtb74G4xHasHK8HoqPieZopdeSWtiFRL8TX688Vgb1zsdl3DNcF3006SlA0VcKjeIXqWuJKvjCS19sDzyCzBcIw9zq9u-AqDfg9r_Wp2FgnOn432x58zNiNJza5-2u71525AOZt-ozOk7bKSs-osjdxS4xfEfpMwrgA==" />
+   </form>
+  </div>
+ </div>
+</div>
