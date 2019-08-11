@@ -7,8 +7,8 @@
 function anonymize_search_theme($existing, $type, $theme, $path) {
 	return [
 		'anonymize_search_form' => [
-		'variables' => ['domain_name' => NULL],
-		'template' => 'anonymize-search-form'
+			'variables' => ['domain_name' => NULL],
+			'template' => 'anonymize-search-form'
 		]
 	];
 }
